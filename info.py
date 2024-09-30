@@ -75,7 +75,7 @@ GRP_LNK = environ.get('GRP_LNK', 'https://t.me/boamovie')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/hdmovies4b')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
-MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ: BOATRIXBOT😇')
+MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ: CyberXOfficialBot😇')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '')) #Log channel id ( make sure bot is admin )
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/Desaibhikhu') #Support group link ( make sure bot is admin )
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
@@ -115,9 +115,9 @@ URL = "https://{}/".format(FQDN) if ON_HEROKU or NO_PORT else \
     "https://{}/".format(FQDN, PORT)
 SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
 WORKERS = int(environ.get('WORKERS', '4'))
-SESSION_NAME = str(environ.get('SESSION_NAME', 'BoatrixBot'))
+SESSION_NAME = str(environ.get('SESSION_NAME', 'CyberXOfficialBot'))
 MULTI_CLIENT = False
-name = str(environ.get('name', 'BoatrixBot'))
+name = str(environ.get('name', 'CyberXOfficialBot'))
 PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
 if 'DYNO' in environ:
     ON_HEROKU = True
